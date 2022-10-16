@@ -14,4 +14,19 @@ public class Tree {
     public Tree(){    
         root = null;      
     }
+     //factorial() will calculate the factorial of given number    
+     public int factorial(int num) {    
+        int fact = 1;    
+        if(num == 0)    
+            return 1;    
+        else {    
+            while(num > 1) {    
+                fact = fact * num;    
+                num--;    
+            }    
+            return fact;    
+        }    
+    }
+    public void insert(String string) {
+    }    
 }
